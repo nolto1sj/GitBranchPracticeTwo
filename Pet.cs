@@ -9,6 +9,7 @@ namespace GitBranchPracticeTwo
     internal abstract class Pet
     {
         public string Name { get; set; }
+        public string Description { get; set; }
         public virtual void MakeHappyNoise()
         {
             Console.WriteLine("caw caw!");
